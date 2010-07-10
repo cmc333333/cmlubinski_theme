@@ -134,21 +134,17 @@ body {
 }
 
 .region-sidebar-first .section {
-  margin: 0 20px 0 0; /* LTR */
   padding: 0;
 
-  border-left: solid thin #5A79A5;
-  border-right: solid thin #5A79A5;
-  border-bottom: solid thin #5A79A5;
+  margin-left: 10px;
+  margin-top: -11px;
+  border: solid thin #5A79A5;
   float: left;
-  margin-right: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-  margin-left: 10px;
   color: #465E80;
   /*  This touches the button image */
   position: relative;
-  margin-bottom: -1em;
   width: 225px;
   background: url(../images/sub_middle.gif) repeat left top;
 }

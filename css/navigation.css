@@ -81,3 +81,14 @@ ul#main-menu {
 .block-menu_block li.active {
   list-style-image: url("/misc/menu-collapsed.png");
 }
+
+#content-area a {
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: thin dotted #5A79A5;
+}
+#content-area a[href^="http://"], #content-area a[href^="https://"], #content-area a.external {
+  font-weight: normal;
+  color: black;
+}
+

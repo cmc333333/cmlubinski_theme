@@ -9,7 +9,6 @@
  * ul.links, .pager, .more-link, etc.
  */
 
-
 /*
  * Body
  */
@@ -137,6 +136,10 @@ div#site-name /* The name of the website */ {
 }
 
 #content .section {
+  background-color: #DCDFF6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
@@ -153,6 +156,20 @@ h1.title, /* The title of the page */
 h2.title, /* Block title or the title of a piece of content when it is given in a list of content */
 h3.title /* Comment title */ {
   margin: 0;
+}
+
+h1.title /* The title of the page */ {
+  background-color: #5A79A5;
+  color: #fff;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  -webkit-border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
@@ -199,6 +216,9 @@ div.tabs /* See also the tabs.css file. */ {
 }
 
 #content-area /* Wrapper for the actual page content */ {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
 }
 
 ul.links /* List of links */ {
@@ -337,4 +357,14 @@ ul.links li {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+#footer #block-block-2 {
+  text-align: center;
+  left: 45%;
+  width: 15em;
+  background-color: #DCDFF6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
