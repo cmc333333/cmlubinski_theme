@@ -87,6 +87,7 @@ div#site-name /* The name of the website */ {
   padding-top: 10px;
   height: 25px;
   line-height: 25px;
+  font-size: medium;
 }
 
 #site-name a:link,

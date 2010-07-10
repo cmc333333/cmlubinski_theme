@@ -140,9 +140,9 @@
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong></div>
             <?php else: /* Use h1 when the content title is empty */ ?>
-              <h1 id="site-name">
+              <h1 id="site-name"><strong>
                 <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
+              </strong></h1>
             <?php endif; ?>
           <?php endif; ?>
 
