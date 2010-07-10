@@ -90,6 +90,10 @@ div.error /* High priority messages. See also the .error declaration below. */ {
 }
 
 
+ul#main-menu li {
+  margin-right: -5px;
+}
+
 /*
  * REFERENCES
  *
