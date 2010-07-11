@@ -81,3 +81,6 @@
 .preview .node /* Preview of the content before submitting new or updated content */ {
   /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
 }
+#content .node-type-book div.content p {
+  text-indent: 2em;
+}
