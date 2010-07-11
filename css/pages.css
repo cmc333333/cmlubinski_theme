@@ -172,6 +172,11 @@ h1.title /* The title of the page */ {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+div#content-area h2 {
+  background-color: #5A79A5;
+  color: #fff;
+  text-align: center;
+}
 
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
